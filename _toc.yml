@@ -1,0 +1,45 @@
+format: jb-book
+root: optique
+
+chapters:
+  - file: notebook/bases
+    sections:
+    - file: notebook/ondes
+    - file: notebook/approx
+    - file: notebook/snell
+    - file: notebook/fibre
+    - file: notebook/td_bases
+  - file: notebook/sys_centres
+    sections:
+    - file: notebook/s_cen_gene
+    - file: notebook/stigmatisme
+    - file: notebook/miroir
+    - file: notebook/gauss
+    - file: notebook/elements
+    - file: notebook/td_s_cen
+  - file: notebook/lentilles_g
+    sections:
+    - file: notebook/lent_pres
+    - file: notebook/lent_rayons
+    - file: notebook/ex_app_lent_g
+    - file: notebook/td_lentilles_g
+  - file: notebook/lentilles_an
+    sections:
+    - file: notebook/l_relations
+    - file: notebook/l_exemple
+    - file: notebook/ex_app_lent_an
+    - file: notebook/l_meth
+      sections:
+      - file: notebook/l_meth_esp
+      - file: notebook/l_meth_proj
+    - file: notebook/td_lentilles_an
+  - file: notebook/oeil
+  - file: notebook/instruments
+    sections:
+    - file: notebook/instr_loupe
+    - file: notebook/instr_meth
+      sections:
+      - file: notebook/instr_meth_oculaire
+      - file: notebook/instr_meth_lunette
+    - file: notebook/td_instr
+
