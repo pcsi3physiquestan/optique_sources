@@ -17,8 +17,6 @@ chapters:
     - file: notebook/gauss
     - file: notebook/elements
     - file: notebook/td_s_cen
-      sections:
-      - file: notebook/microscope
   - file: notebook/lentilles_g
     sections:
     - file: notebook/lent_pres
@@ -44,4 +42,6 @@ chapters:
       - file: notebook/instr_meth_oculaire
       - file: notebook/instr_meth_lunette
     - file: notebook/td_instr
+      sections:
+      - file: notebook/microscope
 
