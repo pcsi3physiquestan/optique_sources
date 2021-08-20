@@ -17,6 +17,8 @@ chapters:
     - file: notebook/gauss
     - file: notebook/elements
     - file: notebook/td_s_cen
+      sections:
+      - file: notebook/microscope
   - file: notebook/lentilles_g
     sections:
     - file: notebook/lent_pres
