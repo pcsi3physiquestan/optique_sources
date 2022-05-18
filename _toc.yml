@@ -8,7 +8,6 @@ chapters:
     - file: notebook/approx
     - file: notebook/snell
     - file: notebook/snell_methodes
-    - file: notebook/fibre
     - file: notebook/td_bases
   - file: notebook/sys_centres
     sections:
