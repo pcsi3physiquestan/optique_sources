@@ -14,7 +14,7 @@ kernelspec:
   name: python3
 ---
 
-# TD Optique 1 : Les bases
+# Travaux dirigées
 
 _Ces exercices seront traités en classe._
 
