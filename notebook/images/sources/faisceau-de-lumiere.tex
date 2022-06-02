@@ -1,0 +1,16 @@
+\definecolor{saumon}{RGB}{251,207,188}
+\definecolor{jaune}{RGB}{251,249,188}
+\begin{tikzpicture}[scale=2]
+\fill[color=saumon] (0, 0.5) rectangle (3, -0.5);
+\draw (0, 0.5) rectangle (3, -0.5) node[midway]{(Lampe torche)};
+\draw[fill] (3, 0.5) -- (3.5, 0.75) -- (3.5, -0.75) -- (3, -0.5);
+\draw[fill, color=jaune] (3.5, 0.75) -- (7, 2) -- (7, -2) -- (3.5, -0.75);
+\draw (4, 0) node[right]{Faisceau de lumière};
+\begin{scope}[very thick,decoration={
+    markings,
+    mark=at position 0.5 with {\arrow{>}}}
+    ] 
+	\draw[postaction={decorate}] (3.5, 0.75) -- (7, 2);
+	\draw[postaction={decorate}] (3.5, -0.75) -- (7, -2);
+\end{scope}
+\end{tikzpicture}

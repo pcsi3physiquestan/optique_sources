@@ -2,46 +2,58 @@ format: jb-book
 root: optique
 
 chapters:
-  - file: notebook/bases
+  - file: notebook/opt_bases
     sections:
-    - file: notebook/ondes
-    - file: notebook/approx
-    - file: notebook/snell
-    - file: notebook/snell_methodes
-    - file: notebook/td_bases
-  - file: notebook/sys_centres
-    sections:
-    - file: notebook/s_cen_gene
-    - file: notebook/stigmatisme
-    - file: notebook/miroir
-    - file: notebook/gauss
-    - file: notebook/elements
-    - file: notebook/td_s_cen
-  - file: notebook/lentilles_g
-    sections:
-    - file: notebook/lent_pres
-    - file: notebook/lent_rayons
-    - file: notebook/ex_app_lent_g
-    - file: notebook/td_lentilles_g
-  - file: notebook/lentilles_an
-    sections:
-    - file: notebook/l_relations
-    - file: notebook/l_exemple
-    - file: notebook/ex_app_lent_an
-    - file: notebook/l_meth
+    - file: notebook/opt_bases_contxt
       sections:
-      - file: notebook/l_meth_esp
-      - file: notebook/l_meth_proj
-    - file: notebook/td_lentilles_an
-  - file: notebook/oeil
-  - file: notebook/instruments
+      - file: notebook/opt_bases_ondes
+      - file: notebook/opt_bases_approx
+      - file: notebook/opt_bases_snell
+    - file: notebook/opt_bases_ex
+      sections:
+      - file: notebook/opt_bases_methodes
+      - file: notebook/opt_bases_exemples
+      - file: notebook/opt_bases_app
+      - file: notebook/opt_bases_td
+  - file: notebook/opt_centres
     sections:
-    - file: notebook/instr_loupe
-    - file: notebook/instr_meth
+    - file: notebook/opt_centres_contxt
       sections:
-      - file: notebook/instr_meth_oculaire
-      - file: notebook/instr_meth_lunette
-    - file: notebook/td_instr
+      - file: notebook/opt_centres_gene
+      - file: notebook/opt_centres_stigmatisme
+      - file: notebook/opt_centres_miroir
+      - file: notebook/opt_centres_gauss
+      - file: notebook/opt_centres_elements
+    - file: notebook/opt_centres_ex
       sections:
-      - file: notebook/microscope
+      - file: notebook/opt_centres_meth
+      - file: notebook/opt_centres_td
+  - file: notebook/opt_lentilles
+    sections:
+    - file: notebook/opt_lentilles_contxt
+      sections:
+      - file: notebook/opt_lentilles_pres
+      - file: notebook/opt_lentilles_rayons
+      - file: notebook/opt_lentilles_relations
+      - file: notebook/opt_lentilles_oeil
+    - file: notebook/opt_lentilles_ex
+      sections:
+      - file: notebook/opt_lentilles_ex_rayons
+      - file: notebook/opt_lentilles_exemple
+      - file: notebook/opt_lentilles_meth
+        sections:
+        - file: notebook/opt_lentilles_meth_accole
+        - file: notebook/opt_lentilles_meth_esp
+        - file: notebook/opt_lentilles_meth_proj
+      - file: notebook/opt_lentilles_app
+      - file: notebook/opt_lentilles_td
+  - file: notebook/opt_instru
+    sections:
+    - file: notebook/opt_instru_loupe
+    - file: notebook/opt_instru_meth
+      sections:
+      - file: notebook/opt_instru_meth_oculaire
+      - file: notebook/opt_instru_meth_lunette
+    - file: notebook/opt_instru_td
+    - file: notebook/opt_instru_num
 
