@@ -55,5 +55,5 @@ chapters:
       - file: notebook/opt_instru_meth_oculaire
       - file: notebook/opt_instru_meth_lunette
     - file: notebook/opt_instru_td
-    # - file: notebook/opt_instru_num
+    - file: notebook/opt_instru_python
 
