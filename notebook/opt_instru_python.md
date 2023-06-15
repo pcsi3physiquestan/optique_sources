@@ -41,8 +41,8 @@ On va considérer pour l'étude numérique un système à trois lentilles $(L_2)
 $$
 \begin{cases}
 f_2 = f_4 &= -6 \rm{cm}\\
-f_3 = 3.5 \rm{cm}
-\overline{O_2 O_4} = f_4 + \frac{f_2 f_3}{f_2 + f_3}
+f_3 &= 3.5 \rm{cm}\\
+\overline{O_2 O_4} &= f_4 + \frac{f_2 f_3}{f_2 + f_3}
 \end{cases}
 $$
 
