@@ -69,7 +69,7 @@ Vous allez maintenant vous entraîner à coder en Python. Lorsqu'on code des pro
 # Exemples
 objet1 = [-3, 1] # Objet ou image en x=-3 de taille y=1
 lentille1 = [2, -1] # Lentilles en x=2 de distance focale f=-1
-print(objet[0])  # Quelle valeur est affichee ? A quelle grandeur physique correspond-elle ?
+print(objet1[0])  # Quelle valeur est affichee ? A quelle grandeur physique correspond-elle ?
 ```
 
 Lorsqu'on étudiera le système $L_2 + L_3 + L_4$, on supposera que la lentille $L_2$ est placée en $O$, soit $x_2 = 0$.
